@@ -1,0 +1,101 @@
+text,intent
+Where is my order?,order_status
+Can you tell me the status of my package?,order_status
+I want to know when my order will arrive,order_status
+Has my order been shipped yet?,order_status
+Track my recent purchase,order_status
+What is the delivery status?,order_status
+My order number is 12345 where is it,order_status
+I placed an order 3 days ago any update,order_status
+Show me my order details,order_status
+When will my product be delivered,order_status
+I want to cancel my order,cancel_order
+Please cancel my recent purchase,cancel_order
+How do I cancel my subscription order,cancel_order
+I need to stop my order immediately,cancel_order
+Cancel order number 45678,cancel_order
+I changed my mind about my purchase,cancel_order
+Please stop my order from shipping,cancel_order
+I want to revoke my order,cancel_order
+Can I cancel before it ships,cancel_order
+I need to delete my order,cancel_order
+I want a refund for my purchase,refund_request
+How do I get my money back,refund_request
+Please refund my payment,refund_request
+The product was damaged I need a refund,refund_request
+I was charged incorrectly,refund_request
+Refund my order please,refund_request
+I never received my package but was charged,refund_request
+Request refund for order 789,refund_request
+I want to dispute this charge,refund_request
+Give me back my money,refund_request
+My subscription is not working,subscription_issue
+I cannot access my premium features,subscription_issue
+My account shows free but I paid for premium,subscription_issue
+Subscription renewal failed,subscription_issue
+I was double charged for subscription,subscription_issue
+How do I upgrade my plan,subscription_issue
+My subscription expired but I want to renew,subscription_issue
+Cancel my monthly subscription,subscription_issue
+Change my subscription plan,subscription_issue
+I cannot find my subscription benefits,subscription_issue
+My payment failed,payment_problem
+Credit card was declined,payment_problem
+I cannot complete checkout,payment_problem
+Payment processing error,payment_problem
+My transaction was unsuccessful,payment_problem
+I was charged twice for the same item,payment_problem
+Payment not going through,payment_problem
+My card is not being accepted,payment_problem
+I see an unauthorized charge,payment_problem
+Why was my payment rejected,payment_problem
+I forgot my password,account_access
+I cannot log into my account,account_access
+My account has been locked,account_access
+How do I reset my password,account_access
+I am locked out of my account,account_access
+My email is not recognized,account_access
+I cannot verify my account,account_access
+Help me access my profile,account_access
+Account login is not working,account_access
+I need to recover my account,account_access
+Tell me about this product,product_inquiry
+What are the features of this item,product_inquiry
+Is this product available in blue,product_inquiry
+What size options do you have,product_inquiry
+Does this come with a warranty,product_inquiry
+How does this product work,product_inquiry
+Compare these two products for me,product_inquiry
+Is this item compatible with my device,product_inquiry
+What are the product specifications,product_inquiry
+Do you have reviews for this item,product_inquiry
+How long will shipping take,shipping_info
+What are your delivery options,shipping_info
+Do you offer free shipping,shipping_info
+Can I get express delivery,shipping_info
+Do you ship internationally,shipping_info
+What is the shipping cost,shipping_info
+When will my order be dispatched,shipping_info
+Is overnight shipping available,shipping_info
+What carrier do you use for shipping,shipping_info
+Can I pick up my order in store,shipping_info
+I want to return my purchase,return_request
+How do I send back an item,return_request
+Initiate a return for my order,return_request
+The product does not fit I want to return it,return_request
+Return policy for damaged items,return_request
+How many days do I have to return,return_request
+I need to exchange my item,return_request
+Start the return process for me,return_request
+I am not satisfied and want to return,return_request
+Where do I mail my return,return_request
+This is unacceptable service,general_complaint
+I am very disappointed with your company,general_complaint
+You charged me wrongly and nobody helps,general_complaint
+This is the worst customer service,general_complaint
+I have been waiting too long for a response,general_complaint
+Your website is broken,general_complaint
+I am frustrated with this experience,general_complaint
+Nobody is helping me,general_complaint
+You have terrible support,general_complaint
+I will never shop here again,general_complaint
