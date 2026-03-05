@@ -1,0 +1,38 @@
+# AI Voice Bot Configuration
+
+api:
+  host: "0.0.0.0"
+  port: 8000
+  debug: false
+  log_level: "INFO"
+
+asr:
+  model_size: "base"  # tiny, base, small, medium, large
+  device: "cpu"        # cpu or cuda
+  language: null       # null = auto-detect
+  fp16: false          # Set true only for CUDA
+
+intent_classifier:
+  model_path: "models/intent_model"
+  model_name: "distilbert-base-uncased"
+  num_labels: 10
+  max_seq_length: 128
+  confidence_threshold: 0.5
+
+response_generator:
+  mode: "rule_based"  # rule_based or generative
+
+tts:
+  engine: "gtts"      # gtts or coqui
+  language: "en"
+  slow: false
+  default_rate: 1.0
+
+training:
+  data_path: "data/intent_dataset.csv"
+  output_path: "models/intent_model"
+  epochs: 5
+  batch_size: 16
+  learning_rate: 2.0e-5
+  test_size: 0.2
+  random_seed: 42
